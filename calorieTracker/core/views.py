@@ -4,7 +4,7 @@ from rest_framework import generics
 from .models import text
 from .serializers import TextSerializer
 from django.views import View
-import requests
+import pip._vendor.requests as requests
 from django.views.decorators.csrf import csrf_exempt
 import json
 
